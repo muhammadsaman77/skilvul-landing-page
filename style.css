@@ -1,0 +1,282 @@
+/* Tambahkan kode CSS kalian di file ini */
+/* Tambahkan kode CSS kalian di file ini */
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* Custom CSS */
+:root {
+  --blue-primary: #2d70e2;
+  --white-text: #fafafa;
+  --netral: #ffffff;
+  --yellow-secondary: #f0f012;
+}
+
+nav {
+  background-color: var(--blue-primary);
+}
+li > a {
+  text-decoration: none;
+  color: var(--white-text);
+  font-family: "Roboto";
+  font-size: 18px;
+}
+li > a:hover {
+  color: #ffff00;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+img {
+}
+header {
+  background-color: var(--blue-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+}
+.login {
+  background-color: var(--blue-primary);
+  padding: 8px 32px;
+  border: 0;
+  font-size: 18px;
+  color: var(--netral);
+  font-family: "Roboto";
+  font-weight: 700;
+  border-radius: 12px;
+}
+.login:hover {
+  color: var(--yellow-secondary);
+}
+.signup {
+  background-color: var(--netral);
+  padding: 8px 32px;
+  border: 0;
+  font-size: 18px;
+  color: var(--blue-primary);
+  font-family: "Roboto";
+  font-weight: 700;
+  border-radius: 12px;
+}
+.signup:hover {
+  color: var(--yellow-secondary);
+}
+#tentang {
+  display: flex;
+  padding: 32px 80px;
+}
+.hero-left {
+  width: 50%;
+}
+.hero-right {
+  width: 50%;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 700;
+}
+h1 span {
+  color: var(--blue-primary);
+}
+p {
+  font-family: "Roboto";
+  text-align: justify;
+}
+#description {
+  font-size: 18px;
+  width: 80%;
+}
+h2 {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--blue-primary);
+}
+#layanan h2 {
+  text-align: center;
+}
+
+.layanan-description {
+  width: 42%;
+  margin: 14px auto 32px auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+.call span {
+  text-align: center;
+}
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+}
+.media-title {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+}
+.media-description {
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.call {
+  margin: 0 auto;
+}
+.group-media {
+  display: flex;
+  justify-content: space-around;
+}
+
+#hubungi-kami h2 {
+  text-align: center;
+}
+
+#hubungi-kami {
+  padding: 32px 80px;
+}
+
+footer {
+  background-color: var(--blue-primary);
+  padding: 32px 80px;
+}
+h3 {
+  color: var(--yellow-secondary);
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-content span {
+  display: block;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: var(--white-text);
+  line-height: 250%;
+}
+
+.footer-content span:hover {
+  color: var(--yellow-secondary);
+}
+input {
+  display: block;
+}
+#status {
+  display: inline;
+}
+#submit-form {
+  display: block;
+}
+
+.form-container {
+  margin: 24px auto;
+  width: 500px;
+  border: 1px solid var(--blue-primary);
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.button-cta {
+  margin-top: 16px;
+  background-color: #3875b3;
+  border: 0;
+  padding: 10px 20px;
+  color: #e3e5eb;
+  border-radius: 4px;
+}
